@@ -1,0 +1,53 @@
+body{	background-color:black;
+		background-image: url(../PICS/STUDENT.gif), url(../PICS/NEUMAINLOGO.png);
+		background-repeat: no-repeat, no-repeat;
+		background-position:right bottom, center;
+		background-attachment: fixed;
+		background-size: 200px, 300px;
+}
+
+hr{
+	background-color:white;
+	width:1000px;
+	height:5px;
+}
+
+h1{
+	font-family: Showcard Gothic;
+	text-align: center;
+	font-size: 30px;
+	color: #FFD800;
+}
+
+p{
+	
+	text-align: center;
+	font-family: Arial black;
+	font-size: 15px;
+	color: #00FF3A;
+}
+
+.h1MAIN{
+	text-align: center;
+	font-family: Edwardian Script ITC;
+	color: #FFD700;
+	font-size: 60px;
+	background-color:#108327;
+}
+.hrHeader1{
+	background-color:blue;
+	width:1330px;
+	height:10px;
+}
+
+.hrHeader2{
+	background-color:red;
+	width:1330px;
+	height:10px;
+}
+
+.hrHeader3{
+	background-color:yellow;
+	width:1330px;
+	height:10px;
+}
