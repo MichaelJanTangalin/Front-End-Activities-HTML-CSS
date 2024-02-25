@@ -1,3 +1,3 @@
-# HTML-CSS-ACTIVITIES
+# Front End Development Activities
 
-This is Only my Sample Activity Projects That I did in college.
+Explore my college HTML and CSS projects. Enjoy the code! 🚀
