@@ -1,0 +1,741 @@
+body{
+	background-image: url(../PIC/Background.png);
+}
+
+h2{
+	font-family: Times New Roman;
+	text-align: center;
+}
+
+
+#wrapper{
+	margin: auto;
+	width: 800px;
+	padding: 10px;
+	background-color: white	;
+}
+
+#Banner{
+	background-image: url(../PIC/banner.jpg);
+	background-repeat: no-repeat;
+	width: 800px;
+	Height: 165px;
+}
+
+
+#logo{
+	background-image: url(../PIC/sample.png);
+	background-repeat: no-repeat;
+	float: left;
+	width: 218px;
+	Height: 185px;
+	
+	
+} 
+
+.headerSetting{
+	width: 800px;
+	Height: 300px;
+}
+
+.productHeaderSetting{
+	width: 800px;
+	Height: 200px;
+}
+
+#Homeheader{
+	background-image: url(../PIC/HEADERPIC.jpg);
+	background-repeat: no-repeat;
+	
+}
+
+#GuitarSectionHeader{
+	background-image: url(../PIC/ACHEADERPIC.jpg);
+	background-repeat: no-repeat;
+}
+
+#DRUMSectionHeader{
+	background-image: url(../PIC/DrumsSets.jpg);
+	background-repeat: no-repeat;
+}
+
+#ProfessionalAudioHeader{
+	background-image: url(../PIC/AMPHEADERPIC.jpg);
+	background-repeat: no-repeat;
+}
+
+#ContactUs{
+	background-image: url(../PIC/ContactUs.jpg);
+	background-repeat: no-repeat;
+}
+
+#about{
+	background-image: url(../PIC/AboutSTORE.jpg);
+	background-repeat: no-repeat;
+}
+
+.Products{
+	display: inline-block;
+	width: 196px;
+	height: 230px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#Products a:hover {
+	background: black;
+	color: black;
+}
+
+
+#guitars {
+	background-image: url(../PIC/guitars.jpg);
+	background-repeat: no-repeat;
+	
+}
+
+#drums-percs {
+	background-image: url(../PIC/drums-percs.jpg);
+	background-repeat: no-repeat;
+	
+}
+
+#pro-audio {
+	background-image: url(../PIC/pro-audio.jpg);
+	background-repeat: no-repeat;
+	
+}
+
+#Location {
+	background-image: url(../PIC/Branches.png);
+	background-repeat: no-repeat;
+	
+}
+/*Featured Products*/
+
+
+.featuredProducts{
+	display: inline-block;
+	width: 156px;
+	height: 412px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#Guitar1{
+	background-image: url(../PIC/DEMONOLOGYGuitar.png);
+	background-repeat: no-repeat;
+}
+
+#Guitar2{
+	background-image: url(../PIC/GibsonLespaulClassic.png);
+	background-repeat: no-repeat;
+}
+#Guitar3{
+	background-image: url(../PIC/TheMajesty.png);
+	background-repeat: no-repeat;
+}
+
+#Guitar4{
+	background-image: url(../PIC/GibsonSG.png);
+	background-repeat: no-repeat;
+}
+
+#Guitar5{
+	background-image: url(../PIC/IbanezGio.png);
+	background-repeat: no-repeat;
+}
+
+#navigator{
+	background-color: gray;
+	width: 800px;
+	height: 44px
+}
+
+/*Navigators*/
+
+#navigator a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 13px 16px;
+	text-decoration: none;
+	font-family: arial;
+}
+
+#navigator a:hover {
+	background: #ddd;
+	color: black;
+}
+
+#footer{
+	background-image: url(../PIC/headfoot2.png);
+	background-repeat: no-repeat;
+	width: 781px;
+	height: 50px;
+	padding: 20px;
+	text-align: center;
+	
+}
+
+.ProductSection{
+	display: inline-block;
+	width: 196px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*GUITAR SECTIONS*/
+
+#Acoustic{
+	background-image: url(../PIC/AcousticGuitar.png);
+	background-repeat: no-repeat;
+}
+
+#ElectricGuitar{
+	background-image: url(../PIC/ElectricGuitar.jpg);
+	background-repeat: no-repeat;
+}
+
+#BassGuitar{
+	background-image: url(../PIC/BassGuitar.jpg);
+	background-repeat: no-repeat;
+}
+
+#GuitarAccessories{
+	background-image: url(../PIC/GuitarAccessories.jpg);
+	background-repeat: no-repeat;
+}
+
+/*DRUMS SECTIONS*/
+
+#Drumkits{
+	background-image: url(../PIC/DRUMKIT.jpg);
+	background-repeat: no-repeat;
+}
+
+#Cymbals{
+	background-image: url(../PIC/Cymbals.jpg);
+	background-repeat: no-repeat;
+}
+
+#Drumsticks{
+	background-image: url(../PIC/Drumksticks.jpg);
+	background-repeat: no-repeat;
+}
+
+#drumAccessories{
+	background-image: url(../PIC/DrumAccessories.jpg);
+	background-repeat: no-repeat;
+}
+
+/*PROFESSIONAL AUDIO SECTIONS*/
+
+#amplifiers{
+	background-image: url(../PIC/Amplifiers.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 250px;
+	height: 200px;
+}
+
+#effects{
+	background-image: url(../PIC/Effects.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+}
+#headphones{
+	background-image: url(../PIC/StudioHeadphones.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 208px;
+	height: 200px;
+}
+
+
+
+.details {
+	display: inline-block;
+	width: 196px;
+	height: 85px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+p{
+	float: left;
+	margin-left:50px;
+	font-family: Arial black;
+	color: black;
+}
+
+#p3{
+	float: left;
+	margin-left:55px;
+}
+
+#p4{
+	float: left;
+	margin-left:80px;
+	margin-right:95px;
+}
+
+
+
+#pContacts{
+	font-family: Times New Roman;
+	margin-left:190px;
+	color: black;
+	text-align: center;
+}
+
+/* ABOUT US*/
+#pAboutUs{
+	font-family: Times New Roman;
+	margin-right:50px;
+	color: black;
+	text-align: justify;
+}
+
+.FounderPhotos{
+	display: inline-block;
+	margin-left:50px;
+	width: 196px;
+	height: 200px;
+	padding: 0;
+	border: 0;
+	
+	border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+
+#Founder{
+	background-image: url(../PIC/FOUNDER.jpg);
+	background-repeat: no-repeat;
+}
+#COFounder2{
+	background-image: url(../PIC/Co-Founder2.jpg);
+	background-repeat: no-repeat;
+}
+#COFounder3{
+	background-image: url(../PIC/Co-Founder3.jpg);
+	background-repeat: no-repeat;
+}
+
+/*INPUTS*/
+
+.inputSettings {
+	width: 320px;
+	height: 400px;
+	margin: auto; 
+	padding: 0;
+	border: 0;
+	
+}
+
+
+
+.btn-outline{
+	
+	outline: none;
+	display:block;
+	margin: auto;
+	flex-direction:column;
+	border:0;
+	font-size: 16px;
+	line-height: 1;
+	padding: 10px 50px;
+	border-radius: 15px;
+	background: gray;
+	color: white;
+	cursor: pointer;
+	transition: all 0.2s linear;
+	
+}
+
+.btn-outline:hover,
+.btn:focus{
+	background: black;
+}
+
+.btn-outline:active{
+	background: white;
+}
+
+#Locations{
+	margin-left:110px;
+}
+
+h5{
+	color:white;
+}
+
+
+.pagination {
+  display: inline-block;
+  float:center;
+  
+}
+
+/*IMAGE HOVER*/
+.image{
+	position: relative;
+	width: 800px;
+	height:400px;
+}
+
+.image__img {
+	display: block;
+	width: 100%;
+}
+
+.image__overlay{
+	position: absolute;
+	top:0;
+	left: 0;
+	width:100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+}
+
+.image__overlay:hover{
+	opacity:1;
+}
+
+.image__title{
+	font-size:2em;
+	font-weight:bold;
+}
+
+.image__description{
+	font-size: 1.25em;
+	margin-top: 0.25em;
+}
+
+
+
+
+
+/**/
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a:hover:not(.active) {background-color: gray;}
+
+.center{
+	text-align: center;
+}
+
+/* ProductSettings*/
+
+.UNLADProducts{
+	display: inline-block;
+	width: 159px;
+	height: 318px;
+	margin-left: 25px;
+}
+.UNLADProducts2{
+	display: inline-block;
+	width: 216px;
+	height: 196px;
+	margin-left: 35px;
+}
+/* Acoustic Products*/
+
+#YAMAHAF310P
+{
+	background-image: url(../PIC/YamahaGuitar.jpg);
+	background-repeat: no-repeat;
+}
+
+#Taylor{
+	background-image: url(../PIC/TaylorGuitars.jpg);
+	background-repeat: no-repeat;
+}
+
+#YamahaC40II{
+	background-image: url(../PIC/YamahaC40II.jpg);
+	background-repeat: no-repeat;
+}
+
+#epiphoneJ15{
+	background-image: url(../PIC/epiphoneJ15.jpg);
+	background-repeat: no-repeat;
+}
+
+#GibsonG00{
+	background-image: url(../PIC/GibsonG-00.jpg);
+	background-repeat: no-repeat;
+}
+
+#OVATION2778AX-5{
+	background-image: url(../PIC/OVATION2778AX-5.jpg);
+	background-repeat: no-repeat;
+}
+
+#jasmineS35{
+	background-image: url(../PIC/jasmineS35.jpg);
+	background-repeat: no-repeat;
+}
+
+#fendercd-60{
+	background-image: url(../PIC/fendercd-60.jpg);
+	background-repeat: no-repeat;
+}
+
+/* Electric Products*/
+
+#REDSPECIAL{
+	background-image: url(../PIC/REDSPECIAL.jpg);
+	background-repeat: no-repeat;
+}
+
+#GibsonLespaulClassic{
+	background-image: url(../PIC/LesPaulGuitar.jpg);
+	background-repeat: no-repeat;
+}
+
+#Sheraton-IIPRO{
+	background-image: url(../PIC/Sheraton-IIPRO.png);
+	background-repeat: no-repeat;
+}
+
+#DDGuitar{
+	background-image: url(../PIC/D_DGuitar.jpg);
+	background-repeat: no-repeat;
+}
+
+#IbanezGRG121DXGIO{
+	background-image: url(../PIC/IbanezGRG121DXGIO.jpg);
+	background-repeat: no-repeat;
+}
+
+#FlyingV{
+	background-image: url(../PIC/FlyingV.png);
+	background-repeat: no-repeat;
+}
+
+#StratocasterGuitar{
+	background-image: url(../PIC/StratocasterGuitar.jpg);
+	background-repeat: no-repeat;
+}
+
+/* BASS Products*/
+
+#JACKCASSADY{
+	background-image: url(../PIC/JACKCASSADY.png);
+	background-repeat: no-repeat;
+}
+
+#ViolinBass{
+	background-image: url(../PIC/ViolinBass.jpg);
+	background-repeat: no-repeat;
+}
+
+#MusicManBASS{
+	background-image: url(../PIC/MusicManBass.jpg);
+	background-repeat: no-repeat;
+}
+#FenderJazzBass{
+	background-image: url(../PIC/FenderJazzBass.jpg);
+	background-repeat: no-repeat;
+}
+
+#AxeElectricBass{
+	background-image: url(../PIC/AxeElectricBass.jpg);
+	background-repeat: no-repeat;
+}
+
+#UltraBass{
+	background-image: url(../PIC/UltraBass.jpg);
+	background-repeat: no-repeat;
+}
+
+#Schecterbass{
+	background-image: url(../PIC/Schecterbass.jpg);
+	background-repeat: no-repeat;
+}
+
+#ChownyBassRetrovibeEVO{
+	background-image: url(../PIC/ChownyBassRetrovibeEVO.jpg);
+	background-repeat: no-repeat;
+}
+
+/* Accessories Products*/
+
+#ErnieBallStrap{
+	background-image: url(../PIC/ErnieBallStrap.png);
+	background-repeat: no-repeat;
+}
+
+#ThomannSafe{
+	background-image: url(../PIC/ThomannSafe.jpg);
+	background-repeat: no-repeat;
+}
+
+#SlidingCapo{
+	background-image: url(../PIC/SlidingCapo.jpg);
+	background-repeat: no-repeat;
+}
+
+#GuitarPick{
+	background-image: url(../PIC/GuitarPick.jpg);
+	background-repeat: no-repeat;
+}
+
+
+
+/* Drumset Products*/
+
+#YAMAHADRUMS{
+	background-image: url(../PIC/YAMAHADRUMS.jpg);
+	background-repeat: no-repeat;
+}
+#TamaDrums{
+	background-image: url(../PIC/TamaDrums.jpg);
+	background-repeat: no-repeat;
+}
+
+#PearlDrums{
+	background-image: url(../PIC/PearlDrums.jpg);
+	background-repeat: no-repeat;
+}
+
+/* Cymbals Products*/
+
+#Thomann12B20{
+	background-image: url(../PIC/Thomann12B20.jpg);
+	background-repeat: no-repeat;
+}
+
+#zildjianCymbs{
+	background-image: url(../PIC/zildjianCymbs.jpg);
+	background-repeat: no-repeat;
+}
+
+#SABIAN{
+	background-image: url(../PIC/SABIAN.jpg);
+	background-repeat: no-repeat;
+}
+
+/* Drumsticks Products*/
+
+#TreCoolSeries{
+	background-image: url(../PIC/TreCoolSeries.jpg);
+	background-repeat: no-repeat;
+}
+
+#AheadLarsUlric{
+	background-image: url(../PIC/AheadLarsUlric.jpg);
+	background-repeat: no-repeat;
+}
+
+#JordisonTX515W{
+	background-image: url(../PIC/JordisonTX515W.jpg);
+	background-repeat: no-repeat;
+}
+
+/* DrumsAccessories Products*/
+
+#MeinlPercussionCajon{
+	background-image: url(../PIC/MeinlPercussionCajon.jpg);
+	background-repeat: no-repeat;
+}
+
+#HeavyDrumThroneB000UJE6UG{
+	background-image: url(../PIC/HeavyDrumThroneB000UJE6UG.jpg);
+	background-repeat: no-repeat;
+}
+
+#brushesSticks{
+	background-image: url(../PIC/brushesSticks.jpg);
+	background-repeat: no-repeat;
+}
+
+/* Amplifier Products*/
+
+#MarshallJCM900{
+	background-image: url(../PIC/MarshallJCM900.jpg);
+	background-repeat: no-repeat;
+}
+
+#OrangeAmplifier{
+	background-image: url(../PIC/OrangeAmplifier.jpg);
+	background-repeat: no-repeat;
+}
+
+#LaneyBassAmp{
+	background-image: url(../PIC/LaneyBassAmp.jpg);
+	background-repeat: no-repeat;
+}
+
+/* EffectsPedals Products*/
+
+#bossDistortion{
+	background-image: url(../PIC/bossDistortion.jpg);
+	background-repeat: no-repeat;
+}
+
+#CrunchDistortion{
+	background-image: url(../PIC/CrunchDistortion.jpg);
+	background-repeat: no-repeat;
+}
+
+#CryBabyWah{
+	background-image: url(../PIC/CryBabyWah.jpg);
+	background-repeat: no-repeat;
+}
+
+#RainbowMachV2-large{
+	background-image: url(../PIC/RainbowMachV2-large.jpg);
+	background-repeat: no-repeat;
+}
+
+#BHZoomB1X{
+	background-image: url(../PIC/BHZoomB1X.jpg);
+	background-repeat: no-repeat;
+}
+
+#ReverbPedal{
+	background-image: url(../PIC/ReverbPedal.jpg);
+	background-repeat: no-repeat;
+}
+
+/* HeadPhones Products*/
+
+#OneOdio{
+	background-image: url(../PIC/OneOdio.jpg);
+	background-repeat: no-repeat;
+}
+
+#AudioTechnicalStudioHeadphones{
+	background-image: url(../PIC/AudioTechnicalStudioHeadphones.jpg);
+	background-repeat: no-repeat;
+}
+
+#FocalListenStudioHeadphones{
+	background-image: url(../PIC/FocalListenStudioHeadphones.jpg);
+	background-repeat: no-repeat;
+}
